@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    width: 75%;
+    margin-inline: auto;
+}
+.sec1 {
+    display: flex;
+    gap: 2rem;
+}
+.sec1 .img-div {
+    width: 100%;
+}
+.sec1 .img-div img {
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    margin-top: 1.5rem;
+
+}
+.text h1, .text div {
+width: 50%;
+}
+.text h1 {
+    font-size: 2rem;
+    color: hsl(240, 100%, 5%);
+    font-weight: 800;
+   
+}
+.text p {
+    margin-bottom: 1rem;
+    color: hsl(236, 13%, 42%);
+}
+.opening {
+    background-color:  hsl(240, 100%, 5%);
+    padding: 0 1.5rem;
+}
+.opening h1 {
+    padding-top: 1.5rem;
+    color:hsl(35, 77%, 62%) ;
+    font-size: 2rem;
+
+}
+.opening h3 {
+    color: white;
+}
+.opening .view {
+    padding: 0;
+    border-bottom: none;
+}
+.opening p {
+   color: hsl(236, 13%, 42%);
+   font-size: 0.8rem;
+}
+.h3 {
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+    padding-bottom: 1rem;
+    margin-top: 1.5rem;
+
+   
+}
+.h3 h3 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+button {
+    padding: 10px 23px;
+    text-align: center;
+    align-items: center;
+    background-color:  hsl(5, 85%, 63%);
+    border: none;
+    text-transform: uppercase;
+    color: hsl(36, 100%, 99%);
+    font-size: 0.6rem;
+    letter-spacing: 3px;
+
+}
+.wow {
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 1rem;
+    
+}
+.sea {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.sec2 .img-div  {
+    width: 10rem;
+}
+.sec2 .img-div img {
+    width: 100%;
+}
+.text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.text-div h1 {
+    color: hsl(233, 8%, 79%);
+    font-size: 2rem;
+}
+
+
+.text-div h5 {
+    font-size: 1rem;
+    color: hsl(240, 100%, 5%);
+}
+.text-div p {
+    color:  hsl(236, 13%, 42%);
+    font-size: 0.9rem;
+    
+}
+.opening p,.text-div p {
+    line-height: 1.5em;
+}
+footer {
+    margin-top: 3rem;
+}
+ 
+@media screen and (max-width: 425px) {
+    .sec1 .web {
+        flex-direction: column;
+    } 
+    .sec2 .wow .sea {
+        flex-direction: column;
+    }
+    
+}
+button:hover {
+    background-color: aqua;
+}
